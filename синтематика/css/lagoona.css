@@ -1,0 +1,229 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 1200px;
+}
+
+/* global */
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.button-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin: 0;
+  margin-bottom: 20px;
+  margin-left: 40px ;
+}
+
+.section-offset {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* header */
+ .header {
+  padding-top: 30px;
+  padding-bottom: 35px;
+ }
+
+ .container-header {
+  align-items: center;
+  margin-bottom: 30px;
+ }
+
+
+ .link-header {
+  margin-left: auto;
+ }
+
+ .header-nav {
+  min-height: 70px;
+  align-items: center;
+ }
+
+ .header-span {
+  margin-left: 40px;
+ }
+
+ .container-button {
+  margin-left: auto;
+  padding-right: 60px;
+ }
+
+ .header-button1 {
+  margin-right: 80px;
+ }
+
+.header-list-item:not(:last-child) {
+  margin-right: 45px;
+}
+/* offer */
+.container-offer {
+  align-items: center;
+}
+
+.offer-container:not(:last-child) {
+  margin-right: 24px;
+}
+
+.offer-list-item {
+  padding: 40px;
+  width: 573px;
+  outline: 1px solid red;
+}
+
+.offer-list-item2 {
+  padding: 40px;
+  outline: 1px solid red;
+  width: 573px;
+}
+
+.offer-list-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.offer-header-title {
+  margin: 0;
+  margin-bottom: 15px;
+}
+ /* us */
+ .us-tittle {
+  margin: 0;
+  margin-left: 40px;
+  margin-bottom: 20px;
+ }
+
+ .us-description {
+  width: 888px;
+  line-height: 32px;
+  padding: 5px;
+ }
+/* servises */
+ .services-list {
+  flex-wrap: wrap;
+ }
+
+ .services-list-item {
+  margin-bottom: 24px;
+  padding: 35px;
+  width: 573px;
+  outline: 1px solid red;
+ }
+
+ .services-list-item:not(:nth-child(2n)) {
+  margin-right: 24px;
+ }
+
+ .services-header-title {
+  margin: 0;
+  margin-bottom: 5px;
+ }
+
+ .servises-list-discription {
+  margin: 0;
+ }
+
+ /* advantages */
+
+ .advantages-list {
+  flex-wrap: wrap;
+ }
+
+ .advantages-list-item {
+  margin-bottom: 22px;
+  padding: 30px;
+  width: 276px;
+  outline: 1px solid red;
+ }
+
+ .advantages-list-item:not(:nth-child(4n)) {
+  margin-right: 22px;
+ }
+
+ .advantages-list-item-discription {
+  margin: 0;
+ }
+
+ /* accommodation */
+ .accom-list {
+  flex-wrap: wrap;
+ }
+
+ .accom-list-item {
+  margin-bottom: 24px;
+  padding: 40px;
+  width: 374px;
+  outline: 1px solid red;
+ }
+
+ .accom-list-item:not(:nth-child(3n)) {
+  margin-right: 24px;
+ }
+
+ .price-stars {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+ }
+
+ .accom-list-item-span:not(:nth-child(3n)) {
+  margin-right: 4px;
+
+ }
+
+ .accom-div-item-description {
+  margin: 0;
+ }
+
+ .accom-title {
+  margin: 0;
+  margin-bottom: 16px;
+ }
+
+ .accom-list-item-description {
+  margin: 0;
+  margin-bottom: 20px;
+ }
+
+ .accom-link {
+  margin-top: auto;
+ }
+
+
